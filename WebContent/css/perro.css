@@ -1,0 +1,24 @@
+h1{
+	color:green;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.nom  .vac{
+	color: white;
+	
+}
+
+.raza{
+	color: #00ffff;
+	text-decoration: blink;
+}
+
+.edad{
+	color: #ff80ff;
+	
+}
+
+body{
+	background-color: #80ffff;
+}

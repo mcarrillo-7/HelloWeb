@@ -10,9 +10,11 @@
 	<h1>NUEVO VIDEO</h1>
 	<form action="crearVideo">
 		<label for="titulo">Título</label>
-			<input type="text" name="titulo" placeholder="Pon el título del video">
+			<input type="text" name="titulo" id="titulo" placeholder="2-150 caracteres">
+			<br></br>
 		<label for="codigo">Código</label>
-			<input type="text" name="codigo" placeholder="Escribe el código">
+			<input type="text" name="codigo" placeholder="11 letras">
+			<br></br>
 			<input type="submit" name="Salvar">
 	</form>
 </body>
