@@ -1,0 +1,5 @@
+console.info("mensaje informativo0")
+console.debug("variable x = 3")
+console.log("log para decir que pasó po aqui")
+console.warn("F en el chat")
+console.error("Oops!")
