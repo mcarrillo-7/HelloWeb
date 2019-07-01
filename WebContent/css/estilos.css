@@ -1,0 +1,47 @@
+/*
+		1. reset - estilos del user-agent
+		2. etiquetas - dar estilo base a todos los tags
+		3. clases comunes
+		4. layouts - secciones de la web (cabeceras, menus...)
+		5. media Querys para RWD
+
+*/
+
+ol, ul{
+	list-style-type: georgia;
+}
+
+footer{
+	background-color: #DDD;
+	padding: 20px;
+	margin-top: 30px;
+}
+code{
+	color: white;
+	background-color: black;
+}
+
+h1{
+	color:red;
+}
+
+h2{
+	color:blue;
+}
+
+p{
+	font-family: Arial;
+}
+
+.ejemplo{
+	color: red;
+	font-style: bold;
+}
+#principal{
+	background-color: yellow;
+	
+}
+.content{
+	max-width: 1024px;
+	margin:auto;
+}

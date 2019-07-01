@@ -1,0 +1,58 @@
+/* CSS para los ejemplos de la carpeta "ejemplos-css"
+*
+*
+*
+*/
+
+
+h1{
+	color:red;
+}
+
+
+
+@media print{
+	
+	h1{
+		color:pink;
+	}
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: serif;
+	color: teal;
+}
+
+h1{
+	font-size: 2em;
+}
+
+h2{
+	font-size: 1.8em;
+}
+
+h3{
+	font-size: 1.5em;
+}
+
+h4, h5, h6{
+	font-size: 1.3em;
+}
+
+p span {
+	color:green;
+	font-family: Comic Sans MS;
+	font-style: bold;
+	font-size: 26px;
+}
+p {
+	color:red;
+	font-family: comic sans;
+	font-style: bold;
+	font-size: 26px;
+}
+span{
+	color: purple;
+	
+}
