@@ -13,7 +13,7 @@
 	<p>lorem ipsum muspi merol</p>
 	<p>Link to<a class="form" href="saludo/formulario.jsp">Link to "formulario"</a></p> <br>
 	<p>Link to<a class="videos" href="saludo/youTube.jsp">"Crear Vídeo"</a> </p><br>
-	<a class="videos" href="ejemplos-css/index.jsp">"Crear Vídeo"</a>
+	<a class="ceeseese" href="ejemplos-css/index.jsp">"Ejemplos de CSS"</a>
 	<br>
 	<a class="perroe" href="saludo/crearPerro.jsp">Comprar perro</a>
 	<br><br>

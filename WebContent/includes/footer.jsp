@@ -1,3 +1,8 @@
-<footer>Pie de pagina</footer>
+
+<%
+java.util.Date fecha = new Date();
+
+%>
+<footer>@Ipartek</footer>
 </body>
 </html>

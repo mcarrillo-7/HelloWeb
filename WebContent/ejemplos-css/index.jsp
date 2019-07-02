@@ -1,5 +1,6 @@
 <%@include file="../includes/header.jsp" %>
-	<h1>Introducción a CSS</h1>
+<main class="content">
+	<h1 class="intro">Introducción a CSS</h1>
 	<nav>
 	<ol>
 		<li><h2>Capítulo 1. Introducción</h2></li>
@@ -16,4 +17,5 @@
 		</ol>
 	</ol>
 	</nav>
+	</main>
 <%@include file="../includes/footer.jsp" %>
