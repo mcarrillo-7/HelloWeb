@@ -1,4 +1,5 @@
-<%@includes file="../includes/header.jsp" %>>
+<%@ include file="../includes/header.jsp" %>
+<br></br>
 <h1>2.1. Selectores básicos</h1>
 <h2>2.1.1. Selector universal</h2>
 
@@ -8,7 +9,7 @@
   padding: 0;
 }</code>
 
+<%@ include file="../includes/footer.jsp" %>
 
 
 
-</body>

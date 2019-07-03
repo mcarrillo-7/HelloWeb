@@ -1,5 +1,5 @@
 <%@include file="../includes/header.jsp"%>
-
+<br>
 <h1>2.2 Selectores avanzados</h1>
 
 <p>CSS define otros selectores más avanzados que permiten
