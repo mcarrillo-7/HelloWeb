@@ -63,7 +63,8 @@ h2 {
 }
 
 p {
-	font-family: Arial;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+		Helvetica Neue, Arial, Noto Sans, sans-serif;
 }
 
 .ejemplo {
@@ -105,14 +106,24 @@ div {
 a.arrow{
 	color: blue;
 	position: fixed;
-	top: 602px;
-	right:-788px;
+	top: 546px;
+	right:-753px;
 	height: 90%;
 	width: 60%;
+	border-radius: 50%;
+	text-shadow: 4px 5px 6px #2196F3; /*ponerle sombra al icono de ir arriba*/
 	
 }
 .wrapper-menu{
 	height: 1em;
+}
+
+.menu a{
+	color:blue;
+}
+
+a.link-inicio {
+	color: #fff;
 }
 
 /*Creamos el rectángulo para que aparezca cada vez que hacemos clic*/
@@ -145,6 +156,7 @@ ol {
 
 .m-b-0 {
 	margin-bottom: 0 !important;
+	color: blue;
 }
 
 /*Sirve para poner en fila todos los elementos del menu. Hay otra forma*/

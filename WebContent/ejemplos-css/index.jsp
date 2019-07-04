@@ -20,6 +20,8 @@
 			<li><a href="ejemplos-css/posicionamiento-normal.jsp" >5.2 Posicionamiento normal</a></li>
 			<li><a href="ejemplos-css/posicionamiento-relativo.jsp" >5.3 Posicionamiento relativo</a></li>
 			<li><a href="ejemplos-css/visualizacion.jsp" >5.7 Visualización</a></li>
+			<li><a href="ejemplos-css/posicionamiento-sticky.jsp" >5.Extra. Posicionamiento sticky. Diferencia entre pos sticky y fixed. </a></li>
+			<li><a href="ejemplos-css/infomontania.jsp" >Ejercicio Imagen+descripcion+likes</a></li>
 		</ol>
 	</ol>
 </nav>

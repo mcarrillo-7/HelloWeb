@@ -30,8 +30,8 @@
 	<header id="principal">
 		<div class="principal2">
 			<div class="content">
-				<h1 class="iparweb">
-					<i class="fas fa-chess-rook"></i>IparWeb
+				<h1 class="iparweb"><a class="link-inicio" href="ejemplos-css/index.jsp">
+					<i class="fas fa-chess-rook"></i>IparWeb</a>
 				</h1>
 
 			</div>

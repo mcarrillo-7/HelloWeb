@@ -11,7 +11,7 @@
 			padding: 20px;
 			width: 30%;
 			height: 80%;
-						display: inline-block;
+			display: inline-block;
 		}
 		
 		.oculto{
