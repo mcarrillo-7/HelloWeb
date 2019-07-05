@@ -27,7 +27,10 @@ header {
 	display: block;
 }
 
+.clearfix{
+	overflow: auto;
 
+}
 
 a:link {
 	color: yellow;
@@ -126,6 +129,12 @@ a.link-inicio {
 	color: #fff;
 }
 
+menu{
+	padding: 5px;
+	background: #f7f7f7;
+	border-bottom: 1px solid red;
+}
+
 /*Creamos el rectángulo para que aparezca cada vez que hacemos clic*/
 .menu .active a { 
 	background-color: #003580;
@@ -162,6 +171,14 @@ ol {
 /*Sirve para poner en fila todos los elementos del menu. Hay otra forma*/
 .d-flex, .metric {
 	display: flex !important;
+
+	flex-wrap: nowrap;
+}
+ejemploFlexbox{
+	align-items: flex-end;
+	justify-content: space-between;
+	
+
 }
 
 .menu {

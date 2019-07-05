@@ -7,27 +7,23 @@
 .card {
 	width: 600px;
 	position: absolute;
-	/*overflow: hidden;*/
+	overflow: hidden;
 	height: 407px;
 }
-
 .card:hover {
 	overflow: visible;
 }
-
 h1.titulo {
 	margin-top: -42px;
 	margin-bottom: 20px;
 	margin-left: 10px;
 	color: #fff;
 }
-
 img {
 	width: 100%;
 	margin-left: 10px;
 	margin-top: 10px;
 }
-
 a#like {
 	color: #fff;
 	margin-left: 1260px;
@@ -36,11 +32,9 @@ a#like {
 	top: 386px;
 	right: -1px;
 }
-
 div.imagen {
 	
 }
-
 .card-content{
 	margin-left: 10px;
 	background-image:  linear-gradient(red, yellow);
@@ -71,9 +65,7 @@ div.imagen {
 			
 		<script language="javascript">
 			var i = 0;
-
 			function contador() {
-
 				i = i + 1;
 				var btn = document.getElementById("boton");
 				btn.value = i;
