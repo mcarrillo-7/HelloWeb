@@ -12,7 +12,7 @@ import com.ipartek.youtube.Youtube;
 /**
  * Servlet implementation class YoutubeController
  */
-@WebServlet("/saludo/crearVideo")
+@WebServlet("/crearVideo")
 public class YoutubeController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	
@@ -42,7 +42,7 @@ public class YoutubeController extends HttpServlet {
 			request.setAttribute("youtube", youtube);
 		
 			//llama a la siguiente pagina a la que va a ir
-			request.getRequestDispatcher("respuesta2.jsp").forward(request, response);
+			request.getRequestDispatcher("/respuesta2.jsp").forward(request, response);
 			
 		} catch (Exception e) {
 			request.setAttribute("mensaje", "VUELVE A INTRODUCIR LOS DATOS, POR FAVOR!!");

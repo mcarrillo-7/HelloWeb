@@ -7,6 +7,8 @@ console.error("Oops!")
 
 NUESTRO PRIMER SCRIPT
 */
+
+function pruebas(){
 var texto = "hola";
 
 var h1 = document.getElementById("titulo1");
@@ -49,11 +51,50 @@ for(i=0; i<animalesJson.length; i++){
 }
 
 lista.innerHTML= lis;
+}
 
 
+function init(){
 
+	activateMenu();
+}
+
+function activateMenu(){
+
+console.debug('activateMenu incio');
+	var url = window.location.href;
+	var anclasMenu = document.querySelectorAll('#menu a');
+	console.debug('anclasMenu %o', anclasMenu);
+
+	console.debug('url=' + url);
+	if(url.indexOf("/ejemplos-html/")!=-1){
+
+		console.debug('activate menu html');
+		anclasMenu[1].classList.add('active');
+
+	}else if(url.indexOf("/ejemplos-css/")!=-1){
+		console.debug('activate menu css');
+		anclasMenu[2].classList.add('active');
+
+	}else if(url.indexOf("/ejemplos-js/")!=-1){
+
+		console.debug('activate menu js');
+		anclasMenu[3].classList.add('active');
+
+	}else if(url.indexOf("/ejemplos-servlet/")!=-1){
+
+		console.debug('activate menu servlet');
+		anclasMenu[4].classList.add('active');
+	}else{
+		console.debug('activate menu home');
+		anclasMenu[0].classList.add('active');
+	}
+console.debug('activateMenu fin');
+
+}
 
 function onTop(event) {
+
 	console.debug("Boton pulsado #button-top");
 	event.preventDefault(); //prevenir que el ancla navegue a una url
 	//buscar body por su id y cambiar scroll 0

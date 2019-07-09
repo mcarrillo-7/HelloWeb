@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<!--  esto es una request interna a una JSP -->
-<html>   
-<head>
-<meta charset="UTF-8">
-<title>Respuesta</title>
-</head>
-<body>
+<%@include file="../includes/header.jsp"%>
 	<H1>Hello</H1>
 	<p>${saludo}</p>
 	<p>${repeat}</p>
@@ -15,6 +8,4 @@
 	}
 	
 	%>
-	
-</body>
-</html>
+<%@include file="../includes/footer.jsp"%>

@@ -1,14 +1,9 @@
+<%@include file="../includes/header.jsp"%>
 <%@page import="com.ipartek.formacion.modelo.pojo.Perro"%>
 <%@page import="java.util.ArrayList"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<link rel="stylesheet" type="text/css" href="css/perro.css">
-<title>Tu nuevo perro</title>
-</head>
+
 <body>
 	<a href="../index.html">Volver al inicio</a><br>
 	<a href="crearPerro.jsp">Comprar otro perro</a><br>
@@ -32,5 +27,4 @@
 	}
 	
 	%>
-</body>
-</html>
+<%@include file="../includes/footer.jsp"%>

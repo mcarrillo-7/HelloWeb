@@ -13,4 +13,5 @@
 			<li>Dog<i class="fas fa-paw fa-5x"></i></li> -->
 	</ol>
 </main>
+<button type="button" onclick="pruebas()">CARGAR DATOS</button>
 <%@include file="../includes/footer.jsp"%>

@@ -78,7 +78,9 @@ div.imagen {
 
 		<a id="like" href="<%=ruta1%>#up" onclick="javascript: contador()"><i
 			class="far fa-heart"><span>LIKES</span><input type="button"
-				id="boton" value="LIKE" /></i></a> <a class="enlace" href="#">Enlace</a>
+				id="boton" value="LIKE" /></i></a> 
+				
+				<a class="enlace" href="#">Enlace</a>
 
 	</div>
 </div>

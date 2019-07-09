@@ -1,4 +1,5 @@
-<a href="../index.html">Back</a>
+<%@include file="../includes/header.jsp"%>
+<div>
 <p>I am a form</p>
 
 <form action="sayhello" method="get">
@@ -14,3 +15,5 @@
 <input type="submit" value="Send" >
 	
 </form>
+</div>
+<%@include file="../includes/footer.jsp"%>

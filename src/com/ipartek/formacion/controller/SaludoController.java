@@ -67,7 +67,7 @@ public class SaludoController extends HttpServlet {
 		//enviamos atributos para pintar en la JSP
 		request.setAttribute("saludo", htmlText);
 		request.setAttribute("saludo", repeat);
-		request.getRequestDispatcher("respuesta.jsp").forward(request, response);
+		request.getRequestDispatcher("saludo/respuesta.jsp").forward(request, response);
 		request.getRequestDispatcher(vista).forward(request, response);
 		
 		
