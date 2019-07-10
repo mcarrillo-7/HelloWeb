@@ -76,6 +76,8 @@
 						<li class="m-b-0"><a itemprop="url" href="ejemplos-js/js.jsp?title=JS" class=""><span itemprop="name">JS</span></a></li>
 						<li class="m-b-0 "><a
 							itemprop="url" href="ejemplos-servlet/servlet.jsp?title=SERVLET" class=""><span itemprop="name">SERVLET+JSP</span></a></li>
+							<li class="m-b-0 "><a
+							itemprop="url" href="ejemplos-bootstrap/bootstrap.jsp?title=BOOTSTRAP" class=""><span itemprop="name">BOOTSTRAP</span></a></li>
 					</ul>
 				</div>
 		</div>

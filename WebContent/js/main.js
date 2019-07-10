@@ -85,6 +85,10 @@ console.debug('activateMenu incio');
 
 		console.debug('activate menu servlet');
 		anclasMenu[4].classList.add('active');
+	}else if(url.indexOf("/ejemplos-bootstrap/")!=-1){
+
+		console.debug('activate menu bootstrap');
+		anclasMenu[5].classList.add('active');
 	}else{
 		console.debug('activate menu home');
 		anclasMenu[0].classList.add('active');

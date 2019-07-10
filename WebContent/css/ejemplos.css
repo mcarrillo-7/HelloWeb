@@ -47,10 +47,17 @@ p span {
 	font-size: 26px;
 }
 p {
-	color:red;
+	
 	font-family: comic sans;
 	font-style: bold;
 	font-size: 26px;
+	text-align: justify;
+	
+}
+
+#ejemploP{
+	text-align: justify!important;
+	color:red;
 }
 span{
 	color: purple;
