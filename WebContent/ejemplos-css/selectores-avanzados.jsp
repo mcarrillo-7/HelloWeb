@@ -33,20 +33,20 @@
 	y/o valores de esos atributos.</p>
 <ul>Cuatro tipos:
 </ul>
-<li>[nombre_atributo], selecciona los elementos que tienen
-	establecido el atributo llamado nombre_atributo, independientemente de
-	su valor.</li>
+	<li>[nombre_atributo], selecciona los elementos que tienen
+		establecido el atributo llamado nombre_atributo, independientemente de
+		su valor.</li>
 <li>[nombre_atributo=valor], selecciona los elementos que tienen
 	establecido un atributo llamado nombre_atributo con un valor igual a
 	valor.</li>
 <li>[nombre_atributo~=valor], selecciona los elementos que tienen
-	establecido un atributo llamado nombre_atributo y al menos uno de los
-	valores del atributo es valor.</li>
+		establecido un atributo llamado nombre_atributo y al menos uno de los
+		valores del atributo es valor.</li>
 <li>[nombre_atributo|=valor], selecciona los elementos que tienen
-	establecido un atributo llamado nombre_atributo y cuyo valor es una
-	serie de palabras separadas con guiones, pero que comienza con valor.
-	Este tipo de selector sólo es útil para los atributos de tipo lang que
-	indican el idioma del contenido del elemento.</li>
+		establecido un atributo llamado nombre_atributo y cuyo valor es una
+		serie de palabras separadas con guiones, pero que comienza con valor.
+		Este tipo de selector sólo es útil para los atributos de tipo lang que
+		indican el idioma del contenido del elemento.</li>
 <br>
 <p class="ejemplo">Se muestran de color azul todos los enlaces que
 	tengan un atributo "class", independientemente de su valor</p>

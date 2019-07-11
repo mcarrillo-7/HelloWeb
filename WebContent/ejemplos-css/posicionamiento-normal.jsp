@@ -1,29 +1,29 @@
 <%@ include file="../includes/header.jsp"%>
-	
-	<br>
-	<h2>5.2 Posicionamiento normal.</h2> 
-	<p>Loren ipsum...............</p>
-	
-	
-	<style>
-		.contenedor{
-			border: 1px solid black;
-			padding: 20px;
-		}
-		
-		.b{
-			background-color: orange;
-			color:#fff;
-			margin: 10px;
-			display: inline-block;
-			width: 30%;
-			height: 30%;
-		}
-		
-		.triple{
-			width: 95%;
-		}
-	</style>
+
+<br>
+<h2>5.2 Posicionamiento normal.</h2>
+<p>Loren ipsum...............</p>
+
+
+<style>
+.contenedor {
+	border: 1px solid black;
+	padding: 20px;
+}
+
+.b {
+	background-color: orange;
+	color: #fff;
+	margin: 10px;
+	display: inline-block;
+	width: 30%;
+	height: 30%;
+}
+
+.triple {
+	width: 95%;
+}
+</style>
 
 <div class="contenedor">
 	<div class="b">Box 1</div>

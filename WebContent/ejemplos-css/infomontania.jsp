@@ -10,20 +10,24 @@
 	overflow: hidden;
 	height: 407px;
 }
+
 .card:hover {
 	overflow: visible;
 }
+
 h1.titulo {
 	margin-top: -42px;
 	margin-bottom: 20px;
 	margin-left: 10px;
 	color: #fff;
 }
+
 img {
 	width: 100%;
 	margin-left: 10px;
 	margin-top: 10px;
 }
+
 a#like {
 	color: #fff;
 	margin-left: 1260px;
@@ -32,12 +36,14 @@ a#like {
 	top: 386px;
 	right: -1px;
 }
+
 div.imagen {
 	
 }
-.card-content{
+
+.card-content {
 	margin-left: 10px;
-	background-image:  linear-gradient(red, yellow);
+	background-image: linear-gradient(red, yellow);
 }
 </style>
 
@@ -62,7 +68,7 @@ div.imagen {
 			profundo: su parentesco con la montaña y con los elementos, como el
 			campesino con su tierra o el artesano con la materia que trabaja."
 			Gaston Rébuffat</p>
-			
+
 		<script language="javascript">
 			var i = 0;
 			function contador() {
@@ -78,9 +84,7 @@ div.imagen {
 
 		<a id="like" href="<%=ruta1%>#up" onclick="javascript: contador()"><i
 			class="far fa-heart"><span>LIKES</span><input type="button"
-				id="boton" value="LIKE" /></i></a> 
-				
-				<a class="enlace" href="#">Enlace</a>
+				id="boton" value="LIKE" /></i></a> <a class="enlace" href="#">Enlace</a>
 
 	</div>
 </div>

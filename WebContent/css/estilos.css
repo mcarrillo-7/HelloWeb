@@ -7,6 +7,13 @@
 		5. media Querys para RWD
 
 */
+
+/*0. reset - estilos del user-agent*/
+/*1. keyframes animaciones*/
+/*2. etiquetas - dar estilo base a todos los tags*/
+/*3. clases comunes*/
+/*4. layouts - secciones de la web (cabeceras, menus...)*/
+/*5. media Querys para RWD*/
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
@@ -296,9 +303,6 @@ div.youtube{
 	}
 }
 
-img.juaguei{
-
-}
 
 @media (orientation: landscape){
 
