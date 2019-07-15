@@ -137,8 +137,8 @@
 					years, finding solace and eventual redemption through acts of
 					common decency.
 					<div class="embed-responsive embed-responsive-16by9">
-						<iframe width="853" height="480"
-							src="https://www.youtube.com/embed/s9APLXM9Ei8" frameborder="0"
+						<iframe width="600" height="480"
+							src="https://www.youtube.com/embed/CXb6rcC4z08" frameborder="0"
 							allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 							allowfullscreen></iframe>
 					</div>
